@@ -1,19 +1,11 @@
 body{
-    
     font-family: 'Poppins', sans-serif;
-    
     margin: 0;
     padding: 0;
 }
 
 
 /* COMMON CSS */
-h1{
-    font-size: 65px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-}
 h2{
     font-size: 45px;
     font-weight: 700;
@@ -31,9 +23,6 @@ h4{
     font-weight: 600;
     color: #121212;
 }
-h5{
-    font-size: 20px;
-}
 h6{
     font-size: 16px;
     font-weight: 400;
@@ -44,9 +33,6 @@ p{
     color: #707070;
     text-align: center;
     margin: 20px 260px;
-}
-.margin-rl-260{
-    margin: 0 260px;
 }
 .p-tb-90{
     padding: 90px 0;
@@ -63,15 +49,21 @@ p{
     url(../img/donate.jpg);
     background-repeat: no-repeat;
     height: 100vh;
-    
-}
-.header p{
-    color: #fff;
-    margin-bottom: 40px;
 }
 .main-header{
     padding: 150px 0;
     text-align: center;
+}
+.main-header h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 0 260px;
+}
+.main-header p{
+    color: #fff;
+    margin-bottom: 40px;
 }
 .button{
     background: #FF5959;
@@ -85,11 +77,11 @@ p{
 }
 
 
+
 /* DONATE TODAY */
 .donate{
     text-align: center;
 }
-.donate h2{}
 
 /* Donate Packeg */
 .donate-packeg{
@@ -115,22 +107,18 @@ p{
     text-align: center;
     width: 40%;
     margin: 60px auto;
-    /* background: #fff; */
     border-bottom: 1px solid gray;
 }
 .other-ammount input{
+    font-size: 18px;
+    text-align: center;
     border: 0;
     outline: 0;
-    text-align: center;
-    font-size: 18px;
-    /* color: #f60a0a; */
-    /* background: transparent; */
 }
 
 
+
 /* DONATE PLAN */
-.donate-plan-text{}
-.donate-plan-text h2{}
 .donate-plan-text p{
     text-align: center;
 }
@@ -157,8 +145,8 @@ p{
 }
 
 
-/* CHILD SPONSORSHIP */
 
+/* CHILD SPONSORSHIP */
 .involved-child{
     display: flex;
     justify-content: center;
@@ -176,6 +164,8 @@ p{
     width: 90%;
 }
 
+
+
 /* UPDATES */
 .update{
     align-items: center;
@@ -186,37 +176,37 @@ p{
     padding: 90px 150px;
     border-radius: 5px;
     margin: 56px  auto;
-    /* padding: 100px 100px 25px; */
     justify-content: center;
     background-color: #FFF4D6;
 }
 .input {
     height: 48px;
     width: 275px;
-    outline: 0;
-    padding: 0 20px;
-    /* margin-bottom: 50px; */
     font-size: 15px;
+    padding: 0 20px;
     border: none;
     border-radius: 5px 0 0 5px;
     background-color: #D9D9D9;
+    outline: 0;
   }
 .submit-button {
-    border: none;
     height: 48px;
     width: 157px;
     font-size: 18px;
     color:#fff;
+    border: none;
     border-radius: 0 6px 6px 0;
     background-color: #FF5959;
     cursor: pointer;
 }
 
 
+
 /* FOOTER */
 footer{
     padding: 50px 0;
-    background-color: #0B0D17;}
+    background-color: #0B0D17;
+}
 footer h2{
     font-family: 'Lobster', cursive;
     font-size: 36px;
@@ -226,3 +216,7 @@ footer p{
     font-size: 14px;
     color: #D9DBE1;
 }
+
+
+
+/* ****** END DONATE NOW WEBSITE ******* */
