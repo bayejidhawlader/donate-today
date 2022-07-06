@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* COMMON CSS */
+h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+}
+h5{
+    font-size: 20px;
+}
+
+
+/* HEADER */
+.header{
+    background-image: url(../img/donate.jpg);
+    background-repeat: no-repeat;
+    padding: 210px 0;
+}
+.header h1{
+    margin: 0 268px;
+}
+.header p{
+    text-align: center;
+    color: #fff;
+    margin: 20px 300px 50px;
+}
+.main-header{
+    text-align: center;
+}
+.button{
+    background: #FF5959;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 16px 30px;
+    align-items: center;
+    margin-top: 60px;
+}
