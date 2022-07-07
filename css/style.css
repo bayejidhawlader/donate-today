@@ -102,14 +102,14 @@ p{
     border-radius: 5px;
 }
 
-/* Other Ammount */
-.other-ammount{
+/* Other Ammount Form */
+.other-ammount-form{
     text-align: center;
     width: 40%;
     margin: 60px auto;
     border-bottom: 1px solid gray;
 }
-.other-ammount input{
+.other-ammount-form input{
     font-size: 18px;
     text-align: center;
     border: 0;
